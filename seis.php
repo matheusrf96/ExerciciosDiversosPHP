@@ -91,11 +91,11 @@ class Pessoa{
         return "
             Nome: ".$this->getNome()."<br />
             E-mail: ".$this->getEmail()."<br />
-            Dependente 1: <br />
+            <i>Dependente 1:</i> <br />
             ".$this->getDep()[0]->toString()."
-            Dependente 2: <br />
+            <i>Dependente 2:</i> <br />
             ".$this->getDep()[1]->toString()."
-            Dependente 3: <br />
+            <i>Dependente 3:</i> <br />
             ".$this->getDep()[2]->toString()."
         ";
     }
